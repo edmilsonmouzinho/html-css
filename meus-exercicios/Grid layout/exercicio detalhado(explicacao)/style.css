@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    
+
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container {
+    display: grid;
+    width: 900px;
+    background-color: #eee;
+    grid-template-columns: repeat(6, 1fr); /*comando para adicionar tamanho de cada  coluna*/
+    grid-template-rows: 100px 200px 300px;  /*comando para adicionar tamanho de cada linha*/
+    margin: 0 auto;
+    gap: 10px; /*Espaco entre as linhas e colunas*/
+    justify-items:; /*Escolher a posicao de cada div horizontalmente: start, center e end*/
+    align-items:; /*Escolher a posicao de cada div verticalmente: start, center e end*/
+    
+
+}
+
+.container > div {
+    background-color: #ccc;
+    text-align: center;
+    border: 1px solid #777;
+    padding: 30px;
+}
+
+.container > div:nth-child(1) {
+    /*nth-child(#): serve para selecionar o elemento desejado. No exemplo, foi selecionado o primeiro (1) elemento*/
+    grid-column: 1 / span 2; /*serve para indicar o comeco da coluna, e o tamanho*/
+
+}
+
+.container > div:nth-child(2) {
+    grid-column: span 3;
+}
+
+.container > div:nth-child(3) {
+    grid-column: span 1;
+    justify-self:end; /*Escolher a posicao individual da div horizontalmente: start, center e end*/
+    align-self:center; /*Escolher a posicao individual da div verticalmente: start, center e end*/
+    padding: 15px;
+}
+
+.container > div:nth-child(4) {
+    grid-column: 2 / 6; /*serve para indicar o comeco da coluna, e onde termina*/
+}
+
+.container > div:nth-child(5) {
+    grid-column: 1 / span 3;
+}
+
+.container > div:nth-child(6) {
+    grid-column: span 3;
+}

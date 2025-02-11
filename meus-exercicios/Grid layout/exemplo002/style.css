@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container {
+    max-width: 900px;
+    background-color: #eee;
+    display: grid;
+    margin: 0 auto; /*Margem cima e baixo:0; Esquerda e direita: auto*/
+    grid-template-columns: 300px 300px 300px; /*Parametro para definir o numero de colunas*/
+    
+}
+
+.grid-container > div {
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
