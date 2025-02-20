@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --var01: #8E2424;
+    --var02: #667085;
+    --var03: #101828;
+    --var04: #C3191908;
+    --var05: #F9FAFB;
+}
+
+body {
+    margin: 0 11vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header {
+    margin-top: 30px;
+}
+
+header > nav {
+    display: flex;
+    background-color: white;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size:  1.5em;
+    color: var(--var02);
+
+}
+
+.nav-logo {
+    
+}
+
+.nav-links a {
+   padding: 10px ;
+}
+.nav-buttons a {
+    padding: 10px 18px;
+}
+
+.Cadastrar-buttom {
+    background-color: var(--var01);
+    color: white;
+    border: 1px solid var(--var01);
+    border-radius: 8px;
+}
+
+.Sobre-nos {
+    text-align: center;
+    padding: 96px 0;
+}
+
+.Sobre-nos h1 {
+    font-size: 1.5em;
+    color: var(--var01);
+    text-align: center;
+}
+
+.Sobre-nos h2 {
+    font-size: 3.5em;
+    padding-top: 15px;
+    color: var(--var03);
+}
+
+.Sobre-nos p {
+    font-size: 1.5em;
+    padding-top: 15px;
+    line-height: 1.2em;
+    width: 60%;
+    margin: auto;
+    color: var(--var02);
+}
+
+.estatisticas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+    color: var(--var02);
+}
+
+.estatisticas div {
+
+    width: 310px;
+    text-align: justify;
+}
+
+.estatisticas h1 {
+    font-size: 4em;
+    color: var(--var01);
+}
+
+.estatisticas h2 {
+    color: var(--var03);
+}
+
+.estatisticas p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding-top: 6px;
+}
+
+.vagas {
+    text-align: center;
+    
+
+}
+
+.vagas h1 {
+    font-size: 1.5em;
+    color: var(--var01);
+    text-align: center;
+
+}
+
+.vagas h2 {
+    text-align: center;
+     font-size: 3em;
+     color: var(--var03);
+}
+
+.vagas p {
+    color: var(--var02);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+
+.vagas img {
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.contratos {
+    width: 50vw;
+    justify-self: center;
+    text-align: start;
+    color: var(--var02);
+}
+
+.contratos p {
+    text-align: start;
+}
+
+
+.contratos h1 {
+    color: var(--var03);
+    text-align: start;
+
+}
+
+.design1 {
+    border: 1px solid #EAECF0;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+
+.software1 {
+    border: 1px solid #EAECF0;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+aside {
+    background-color: var(--var04);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5em;
+    color: var(--var03);
+    margin:96px 0;
+}
+
+aside h1 {
+    text-align: center;
+    color: var(--var01);
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-top: 30px;
+}
+
+.coment {
+    font-size: 2.5em;
+    padding: 20px;
+    line-height: 44px;
+}
+
+.profissao {
+    color: var(--var02);
+    margin-bottom: 30px;
+    
+}
+
+aside p {
+    color: var(--var03);
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.rodape {
+    text-align: center;
+    padding: 96px 0;
+    background-color: var(--var05);
+    line-height: 1.5em;
+    font-size: 1.5em;
+    color: var(--var02);
+    margin-bottom: 40px;
+}
+
+.formulario {
+    
+}
+
+.box1 {
+    width: 15vw;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--var02);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttun {
+    margin: 40px 0;
+    padding: 1px 20px 6px 20px;
+    font-size: 1em;
+    background-color: var(--var01);
+    color: white;
+    border-radius: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragrafo {
+    color: var(--var03);
+    font-size: 2em;
+    margin: 20px 0
+}

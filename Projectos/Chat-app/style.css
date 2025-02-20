@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    background-color:  hsl(270, 20%, 96%);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-color:  hsl(270, 20%, 96%);
+    display: flex;
+
+}
+
+.cima {
+    background-color:  hsl(276, 55%, 52%);
+    height: 400px;
+}
+
+.baixo {
+    background-color:  hsl(276, 55%, 52%);
+    width: 480px;
+    height: 480px;
+    border-end-start-radius: 50%;
+    border-end-end-radius: 50%;
+}
+
+.phone {
+    width: 480px;
+    background-color:  hsl(270, 20%, 96%);
+}
+
+.telefone {
+    background-color: white;
+    width: 360px;
+    height: 735px;
+    margin: 30% -19%;
+    border-radius: 40px;
+    align-content: center;
+    justify-items: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.596);
+}
+
+.ecra {
+    background-color:  hsl(270, 20%, 96%);
+    width: 330px;
+    height: 715px;
+    border-radius: 30px;  
+}
+
+.top {
+    background: linear-gradient(to right,hsl(264, 100%, 61%),  hsl(293, 100%, 63%));
+    padding-bottom: 8px;
+    border-radius: 25px 25px 12px 12px;
+    box-shadow: 0 1px 3px #00000071;
+}
+
+.camera {
+    background-color: white;
+    height: 18px;
+    width: 180px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.cabecalho {
+    display: flex;
+    width: 330px;
+    margin-top: 10px;
+}
+
+.button1 {
+    align-content: center;
+    justify-items: center;
+    margin-left: 4px;
+}
+
+.button1 img {
+    height: 60%;
+    width: 32px;
+}
+
+.imagen01 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:0px 15px 0 2px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 57px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contacto h1 {
+    color: rgba(255, 255, 255, 0.884);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+}
+
+.contacto p {
+    color: #f2f2f3b4;;
+}
+
+.button2 {
+    align-self: center;
+    justify-self: end;
+    padding-right: 4px;
+    
+}
+
+.button2 img {
+    height: 60%;
+    color: white;
+}
+
+.campo-mensagem {
+    height: 520px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+
+.text01 {
+    width: 60%;
+    margin-left: 13px;
+}
+
+.text01 p {
+    background-color: hsla(206, 7%, 79%, 0.678);
+    margin-top: 10px;
+    border-radius: 8px 8px 8px 1px;
+    padding: 5px 5px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: hsl(276, 55%, 52%);
+}
+
+picture {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px 0;
+    margin-right: 9px;   
+}
+
+picture img {
+    width: 80px;
+    height: 80%;
+    margin: 5px;
+    border-radius: 20px;
+    
+}
+
+.picture01 {
+    grid-column: 2 / 3;
+}
+
+.text02 {
+    width: 60%;
+    justify-self: end;
+    margin-right: 13px;
+    
+
+}
+.text02 p {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    border-radius: 8px 8px 8px 1px;
+    padding: 5px 5px;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: hsla(260, 5%, 12%, 0.68);
+   
+}
+
+.options {
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.precos {
+    background: linear-gradient(to right,hsla(293, 100%, 63%, 0.459), hsla(264, 100%, 61%, 0.699));
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px ;
+    width: 60%;
+    border-radius: 15px 15px 15px 0;
+    box-shadow: 1px 2px 5px #00000071;
+    
+}
+
+.precos .paragrafo {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.circle {
+    border:.5px solid white;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.moeda01 {
+    padding-left: 30px;
+    font-weight: bolder;
+    color: hsla(0, 0%, 100%, 0.88);
+}
+
+.moeda02 {
+    padding-left: 60px;
+    font-weight: bolder;
+    color: hsla(0, 0%, 100%, 0.88);
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: hsl(0, 0%, 100%);
+    height: 53px;
+    margin: auto;
+    width: 94%;
+    border-radius: 24px;
+    margin-top: 27px;
+    box-shadow: 1px 1px 5px #00000071;
+    
+}
+
+#textmsg {
+    margin-left: 20px;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #c6cacd;
+    font-size: 1.1em;
+
+}
+
+#texticon {
+    align-content: center;
+    justify-self: end;
+    padding-right: 2px;
+    margin-top: 3px;
+}
+
+#texticon img {
+
+} 
+
+.right {
+    display: flex;
+}
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin: auto -60px auto auto;
+}
+
+#sub-titulo {
+    line-height: 2em;
+    font-size: 2.5em;
+
+}
+
+#texto01 {
+    line-height: 2em;
+    font-size: 1.2em;
+    text-align: justify;
+
+}
+
+.direito {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    justify-content: end;
+
+}
+
+.bloco01 {
+    background-color:   #c6cacd;
+    height: 340px;
+    border-start-start-radius: 75%;
+    width: 340px;
+}
+
+.bloco02 {
+    background-color:  #505358;
+    height: 480px;
+    width: 340px;
+}
