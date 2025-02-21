@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+ .box1 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.box2 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+  background-color: red;
+  z-index: 2; /* Maior valor => fica por cima */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    
+</body>
+</html>

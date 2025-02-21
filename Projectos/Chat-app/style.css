@@ -11,16 +11,25 @@ p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-main {
-    background-color:  hsl(270, 20%, 96%);
-    display: flex;
+body {
+    background-color: #fafafa;
     width: 100vw;
     height: 100vh;
 }
 
+main {
+    background-color:  #fafafa;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 95vh;
+}
+
 .left {
-    background-color:  hsl(270, 20%, 96%);
+    background-color:  #fafafa;
     display: flex;
+    height: 100vh;
 
 }
 
@@ -39,7 +48,7 @@ main {
 
 .phone {
     width: 480px;
-    background-color:  hsl(270, 20%, 96%);
+    background-color:  #fafafa;
 }
 
 .telefone {
@@ -257,51 +266,70 @@ picture img {
     margin-top: 3px;
 }
 
-#texticon img {
-
-} 
-
 .right {
-    display: flex;
+    background-color: #fafafa;
+    display:flex;
+    height: 100vh;
+
 }
 
-.esquerdo {
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    margin: auto -60px auto auto;
+#principal {
+    align-content: center;
+    padding: 20px;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #sub-titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 2em;
-    font-size: 2.5em;
-
+    font-size: 2em;
+    color:   #3e2753;
 }
-
 #texto01 {
-    line-height: 2em;
-    font-size: 1.2em;
+    padding-top: 10px;
+    line-height: 1.3em;
+    font-size: 1.4em;
+    justify-self: start;
+    align-self: center;
+    margin-right: -120px;
     text-align: justify;
-
+    color:   #a39daa
 }
 
-.direito {
-    display: flex;
-    flex-direction: column;
-    width: 480px;
-    justify-content: end;
-
+#blocos {
+    background-color: #f9f4fa;
+    height: 796px;
+    align-self: end;
+    align-content: end;
+    border-top-left-radius: 236px;
+    border-top-right-radius: 70px;
+    z-index: 1;
 }
 
-.bloco01 {
-    background-color:   #c6cacd;
-    height: 340px;
-    border-start-start-radius: 75%;
-    width: 340px;
+.bloco-01 {
+    height: 391px;
+    width: 360px;
+    background-color#f9f4fa;
+    border-top-left-radius: 287px;
+    border-top-right-radius: 53px;
+    justify-self: end;
 }
 
-.bloco02 {
-    background-color:  #505358;
-    height: 480px;
-    width: 340px;
+.bloco-02 {
+    width: 400px;
+    height: 400px;
+    background-color: #f9f4fa;
 }
+
+footer p {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 7%);
+    font-weight: bold;
+}
+
