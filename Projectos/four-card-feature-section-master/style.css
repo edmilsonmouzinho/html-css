@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 1440px;
+    margin: auto;
+    height: 100vh;
+}
+img {
+    align-self: end;
+    justify-self: end;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: hsl(234, 12%, 34%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: hsl(234, 12%, 34%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.4em;
+    margin-top: 10px;
+    color: hsl(212, 6%, 44%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin: auto;
+    text-align: center;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+
+}
+
+.left {
+    align-self: center;
+}
+
+.card01 {
+    display: grid;
+    text-align: start;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow: 1px 2px 20px hsl(212, 6%, 44%);
+}
+
+
+
+.center {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.card02 {
+    display: grid;
+    text-align: start;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    box-shadow: 1px 2px 20px hsl(212, 6%, 44%);
+}
+
+.card03 {
+    display: grid;
+    text-align: start;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 1px 2px 20px hsl(212, 6%, 44%);
+}
+
+.right {
+    align-self: center;
+}
+
+.card04 {
+    display: grid;
+    text-align: start;
+    padding: 20px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 1px 2px 20px hsl(212, 6%, 44%);
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: black;
+}
